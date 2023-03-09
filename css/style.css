@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gilroy';
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy');
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu {
+    text-align: center;
+    padding-top: 33px;
+    margin-bottom: 36.92px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 152.65px 0 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu li:last-child {
+    margin: 0;
+}
+
+#menu_first {
+    color: #070707;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.line {
+    border: none;
+    border: 1px solid #828282;
+    width: 940.6px;
+    margin: 0 auto;
+}
+
+.header_header {
+    margin-bottom: 104px;
+}
+
+.header {
+    width: 943.61px;
+    height: 138.5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 49.67px;
+}
+
+.header_title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 47.34px;
+    color: #070707;
+    margin: 0;
+    margin-right: -50px;
+    line-height: 1.2;
+}
+
+.header_1 {
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+.header_2 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 19.81px;
+}
+
+.header_img {
+    text-align: center;
+}
+
+.header_2_language_gray {
+    color: #828282;
+}
+
+.about_me {
+    height: 506px;
+    text-align: center;
+    line-height: 22px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_title {
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-bottom: 39px;
+}
+
+.about_me_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 485px;
+    height: 218px;
+    margin-bottom: 107px;
+}
+
+.Skills {
+    height: 610px;
+}
+
+.Skill_title {
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 91px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+.Skill_text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 89.5px;
+    line-height: 22px;
+}
+
+.Skill_link {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.Skill_link>img:not([class="Skill_link_icon4"]) {
+    margin: 0 90px 0 0;
+}
+
+.Portfolio {
+    height: 2253px;
+    background: #F6F6F6;
+    text-align: center;
+}
+.Portfolio_title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    padding-top: 133px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.Portfolio>img:not([class="Portfolio_img_3"]) {
+    margin-bottom: 45px;
+}
+
+.Portfolio>p:not([class="Portfolio_text_3"]) {
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 99px;
+    line-height: 22px;
+}
+
+.Portfolio_img_3 {
+    margin-bottom: 46px;
+}
+
+.Portfolio_text_3 {
+    margin-bottom: 96px;
+    font-size: 18px;
+    text-decoration: underline;
+    line-height: 22px;
+}
+
+footer {
+    height: 622px;
+    text-align: center;
+}
+
+.Footer_title {
+    padding-top: 114px;
+    line-height: 42px;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 21px;
+}
+
+.Footer_text_1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 29px;
+}
+
+.Footer_button {
+    height: 42px;
+    width: 180px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 22px;
+    background-color: #070707;
+    margin-bottom: 86px;
+}
+
+.Footer_icons {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+}
+
+.Footer_text_2 {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 123px;
+}
